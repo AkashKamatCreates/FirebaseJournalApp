@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Firebase Journal App</string>
+    <string name="save_button">Save Post</string>
+</resources>

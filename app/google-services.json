@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "477272395626",
+    "project_id": "fir-journal-app-8a5d3",
+    "storage_bucket": "fir-journal-app-8a5d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477272395626:android:1d330fe6af603fe2215f13",
+        "android_client_info": {
+          "package_name": "com.example.firebasejournalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477272395626-3411ks27qrgli8k0uq71hhi3f0mi3ma0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasejournalapp",
+            "certificate_hash": "7238b42010f9b5964a2daffe36bf8381017a8017"
+          }
+        },
+        {
+          "client_id": "477272395626-oi2lfmh5q8qvdllo1nnm1lgj1qh697oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PIeXpo9hLxteUBHGQA7Xw-K3FMDYViM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477272395626-oi2lfmh5q8qvdllo1nnm1lgj1qh697oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
