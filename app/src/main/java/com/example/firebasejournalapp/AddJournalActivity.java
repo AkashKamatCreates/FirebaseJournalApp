@@ -3,6 +3,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -14,6 +15,8 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+
 
 import com.example.firebasejournalapp.model.Journal;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -27,6 +30,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+
 
 import java.sql.Time;
 import java.util.Date;
@@ -198,6 +202,8 @@ public class AddJournalActivity extends AppCompatActivity {
         }
     }
 
+
+    
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -211,6 +217,8 @@ public class AddJournalActivity extends AppCompatActivity {
 
     }
 
+
+    
     @Override
     protected void onStart() {
         super.onStart();
@@ -218,6 +226,8 @@ public class AddJournalActivity extends AppCompatActivity {
         firebaseAuth.addAuthStateListener(authStateListener);
     }
 
+
+    
     @Override
     protected void onStop() {
         super.onStop();
